@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+
+@font-face {
+	font-family: 'muiRegular';
+	src: 
+		local('mui'), 
+		url('mui.ttf') format('truetype');
+} /*其中fontName替换为你的字体名称*/
+h1 {
+	font-family: muiRegular
+}
